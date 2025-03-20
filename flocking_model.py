@@ -6,6 +6,8 @@ import mesa.time
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
+import sys
+print(sys.version)
 
 class Bird(mesa.Agent):
     def __init__(self, unique_id, model, alpha, beta, gamma, delta, r0):
